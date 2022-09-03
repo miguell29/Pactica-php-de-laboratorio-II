@@ -34,33 +34,32 @@ h2{
     flex-direction: row;
 }
 aside{
-    width: 30%;
+    width: 40%;
     background-color: cadetblue;
 }
-
-aside ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contenido p{
+    margin-left: 2rem;
 }
-
-aside ul li{
-    list-style: none;
-    background-color: blueviolet;
-    width: 70%;
-    margin-bottom: 0.5rem;
-    padding: 1rem;
-    color: antiquewhite;
+.error{
+    margin: 2rem;
     text-align: center;
-    border-radius: 1rem;
-    transition: all 0.5s;
+    border: solid 0.1rem red;
 }
-aside ul li:hover,footer p:hover{
+
+.aviso{
+    margin: 2rem;
+    text-align: center;
+    border: solid 0.1rem yellowgreen;
+}
+
+
+
+footer p:hover{
     transform: scale(1.2);
 }
 
 .contenido-principal{
-    width: 70%;
+    width: 60%;
     background-color: coral;
 }
 

@@ -3,12 +3,12 @@
 
 <?php
     require_once("html/encabezado.html");
-    $nivel=chr(mt_rand(65,67));
+    $nivel=chr(mt_rand(65,67));  // SE CREA UNA LETRA ALEATORIA ENTRE A Y C
 ?>
 
 <section class = "contenido">
     <aside>
-        <h2>Usuario nivel <?php echo $nivel;?></h2>
+        <h2>Usuario nivel <?php echo $nivel;?></h2> <!--se muestra el nivel de acceso de la cuenta y sus categorias-->
         <ul>
             <?php
             switch ($nivel) {
