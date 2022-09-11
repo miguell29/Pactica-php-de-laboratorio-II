@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html{
+    background-color: #81D6C7;
+    color: #01044D;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+h2{
+    margin-left: 2rem;
+}
+
+
+main p{
+    width: 30%;
+    padding: 1rem 2rem;
+    background-color: #D69881;
+    color:whitesmoke;
+    box-shadow: 20px 10px 10px black;
+    transition: all 0.5s;
+
+}
+main p:hover ,main p:focus{
+    transform: scale(1.1);
+}
+
+p{
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    border: solid #8A4E37 0.2rem;
+}

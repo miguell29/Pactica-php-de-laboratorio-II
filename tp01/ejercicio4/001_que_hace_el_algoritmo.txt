@@ -1,0 +1,3 @@
+El codigo fuente del archivo index.php realiza los calculos
+para determinar el monto final que se debe pagar, si se quiere comprar dolares,
+en un rango de 100 a 300 $usd.
