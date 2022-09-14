@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0071BB;
+}
+h1, footer{
+    text-align: center;
+    font-family: 'Arvo', serif;
+    margin: 1rem;
+    border-bottom: 0.5rem solid #CCCCFF;
+}
+
+main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.carton{
+    background: linear-gradient(0deg, rgba(240,58,8,0.938813025210084) 0%, rgba(59,153,114,1) 38%, rgba(82,180,163,1) 100%);
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+.carton-logo article{
+    text-align: center;
+}
+.carton-logo img{
+    width: 60%;
+    margin-bottom: -1.5rem;
+}
+.info{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 90%;
+    margin: 0 auto 2rem auto;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border-bottom: solid #CCCCFF 0.5rem;
+}
+.info p{
+    display: inline-block;
+    width: 45%;
+    color: antiquewhite;
+    font-weight: bold;
+    margin: 0.3rem 0;
+}
+.info .info-dato, #num-carton, .carton-contenido-numero{
+    background: rgb(255,150,0);
+    background: linear-gradient(317deg, rgba(255,150,0,1) 17%, rgba(253,187,45,1) 54%, rgba(255,255,255,1) 100%);    display: flex;
+    color: black;
+    display: inline-block;
+    border-radius: 0.5rem;
+    border: whitesmoke 0.2rem solid;
+    font-weight: bold;
+}
+
+.carton-contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.carton-contenido-premios{
+width: 40%;
+height: 60vh;
+}
+.carton-contenido-numeros{
+    width: 60%;
+}
+.carton-contenido-premios .premios, #num-carton{
+    text-align: center;
+    font-size: 2rem;
+}
+.carton-contenido-premios p{
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+#num-carton{
+margin: 1rem 1rem;
+padding: 0.5rem 1.5rem;
+}
+
+.carton-contenido-numeros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.carton-contenido-numero{
+    width: 20%;
+    margin: 0.5rem;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+
+
+.sorteo{
+    width: 45%;
+    background-color: #5A75A9;
+    font-weight: bold;
+}
+h2, .mensaje{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+}
+.sorteo-numeros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+.sorteo-numero{
+    text-align: center;
+    width: 1rem;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 50%;
+    border: #0071BB solid 0.1rem;
+    margin: 1rem 0.5rem;
+
+}
+
+
+footer{
+    margin-bottom: 0;
+}
