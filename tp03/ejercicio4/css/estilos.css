@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #0071BB;
+    font-family: 'Arvo', serif;
+    color: beige;
+}
+
+h1{
+    text-align: center;
+    font-size: 1rem;
+    background-color: gray;
+}
+h1, footer{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+table{
+    margin: 1rem auto;
+}
+table,th,td{
+    border: black solid 0.1rem;
+    border-collapse: collapse;
+}
+table td img{
+    width: 3rem;
+    height: auto;
+}
+footer{
+    text-align: center;
+    margin: 1rem;
+    border-bottom: 0.5rem solid #CCCCFF;
+    color: black;
+}
