@@ -15,6 +15,7 @@ require_once('html/encabezado.html');
         } while ($repetido);
         $numGanadores[] = $num;
     }
+    sort($numGanadores);
     //AHORA COMPARAMOS LOS NUMEROS SORTEADOS CON LOS NUMEROS DE NUESTRO CARTON Y CONTAMOS LOS ACIERTOS
     $aciertos = 0;
     foreach ($numGanadores as $value) {

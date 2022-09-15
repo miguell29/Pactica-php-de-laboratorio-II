@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #0071BB;
+    font-family: 'Arvo', serif;
+    color: beige;
+}
+section article{
+    width: 100%;
+    text-align: center;
+}
+.titulo{
+    width: 40%;
+    margin: 0.5rem auto;
+}
+h2,h1{
+    text-align: center;
+    font-size: 1rem;
+}
+h2, thead{
+    background-color: gray;
+}
+table{
+    margin: 2rem auto;
+    width: 60%;
+}
+table,th,td{
+    border: #5A75A9 solid 0.2rem;
+    border-collapse: collapse;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin: 1rem;
+    border-bottom: 0.5rem solid #CCCCFF;
+    color: black;
+}
