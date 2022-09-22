@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+main{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/****************  FORMULARIO  ****************/
+form{
+    background-color: darkkhaki;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+input,form select{
+    font-size: 1.5rem;
+    border: 0.3rem solid black;
+    margin-bottom: 1rem;
+}
+
+
+/****************  RESPUESTA  ****************/
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: darkolivegreen;
+}
+.simulacion, .verde, .salmon{
+font-size: 1.5rem;
+padding: 1rem;
+}
+.simulacion{
+    background-color: greenyellow;
+}
+.verde{
+background-color: green;
+color: whitesmoke;
+}
+.salmon{
+background-color: salmon;
+}
+.error{
+    border: solid red 0.2rem;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+
+
+/****************  FOOTER  ****************/
+
+
+footer p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
