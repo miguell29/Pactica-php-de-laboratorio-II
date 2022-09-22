@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+main{
+    width: 100%;
+}
+table, td, th{
+    border: black solid 0.2rem;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+table{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1rem solid black;
+}
+caption{
+    background-color: aquamarine;
+    font-weight: bold;
+    font-size: 2rem;
+}
+th{
+    background-color: black;
+    color: aliceblue;
+}
+footer p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
