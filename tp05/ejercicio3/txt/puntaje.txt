@@ -1,0 +1,18 @@
+martin;25
+miguel;11
+juan;19
+jose;9
+lucas;16
+luis;21
+Miguel Fernando;16
+samuel;17
+pepe;23
+santos;29
+santiago;28
+romina;18
+sofia;22
+luciana;23
+lucia;19
+yanina;28
+silvia;18
+pri;21
