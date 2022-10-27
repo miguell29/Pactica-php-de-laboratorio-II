@@ -1,3 +1,0 @@
-admin;admin
-usuario;1234
-prueba;test

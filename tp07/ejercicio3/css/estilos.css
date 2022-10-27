@@ -39,6 +39,10 @@ table,td,th{
     font-size: 2rem;
 }
 
+.cumple{
+    background-color: red;
+    color: whitesmoke;
+}
 
 
 /****************  FOOTER  ****************/
