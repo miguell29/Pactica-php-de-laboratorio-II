@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: darkgray;
+}
+p,h1{
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+   }
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+article{
+    border: solid blue 0.2rem;
+    background-color: aquamarine;
+    padding: 0.2rem;
+}
+table{
+    width: 100%;
+}
+table tr th{
+    background-color: aqua;
+}
+table tr:nth-child(odd) td{
+    background-color: azure;
+}
+table,td,th{
+    border: solid black 0.1rem;
+    border-collapse: collapse;
+    font-size: 2rem;
+}
+
+
+
+/****************  FOOTER  ****************/
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
