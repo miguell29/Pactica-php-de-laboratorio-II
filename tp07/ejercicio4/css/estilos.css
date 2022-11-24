@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: darkgray;
+}
+main{
+    width: 50%;
+    margin: 0 auto;
+}
+p{
+ font-size: 2rem;
+ margin: 1rem;   
+}
+.datos{
+    
+}
+/****************  FORMULARIO  ****************/
+form{
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 2rem;
+    padding: 2rem;
+    border: gray solid 0.3rem;
+    border-radius: 2rem;
+    margin: 4rem 0;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+input,form select{
+    font-size: 1.5rem;
+    border-bottom:  0.3rem solid palevioletred;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: whitesmoke;
+    width: 100%;
+}
+input[type="submit"]{
+    color: palevioletred;
+    font-size: 1.5rem;
+    border:  0.3rem solid palevioletred;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 50%;
+    
+}
+
+
+/****************  PROCESAR  ****************/
+.datos{
+    background-color: palevioletred;
+}
+.error{
+    border: solid red 0.2rem;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+
+/****************  FOOTER  ****************/
+
+
+footer p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
