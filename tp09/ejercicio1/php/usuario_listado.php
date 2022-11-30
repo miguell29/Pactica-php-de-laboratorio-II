@@ -1,6 +1,7 @@
 <?php
     $ruta = '../css';
     require("../html/header.html");
+    require('header.php');
     require("conexion.php");
 ?>
 
@@ -16,6 +17,8 @@
                     <th>Foto</th>
                     <th>Usuario</th>
                     <th>Tipo</th>
+                    <th>Modificar</th>
+                    <th>Eliminar</th>
                 </tr>
 
                 <?php
@@ -35,7 +38,9 @@
                                 }
                                 echo '</td>';
                                 echo '<td>'.$fila['usuario'].'</td>
-                                <td>'.$fila['tipo'].'</td></tr>';
+                                <td>'.$fila['tipo'].'</td>
+                                <td><a href="modificar.php?id='.$fila['id_usuario'].'"><img class="icono" src="../img/modificar.png" alt="editar datos del usuario"></a></td>
+                                <td><a href="eliminar.php?id='.$fila['id_usuario'].'"><img  class="icono" src="../img/eliminar.png" alt="eliminar usuario"></a></td></tr>';
                             }   
                         }
                     }
